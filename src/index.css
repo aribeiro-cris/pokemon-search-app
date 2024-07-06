@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #FF0000, #FFDE00, #3B4CCA, #48D0B0);
+  background-size: cover;
+  background-attachment: fixed;  
+  /*background-color: #eee;*/
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.main-container {
+  height:auto;
+  width: auto;
+  padding: 10% 0%;
+  align-content: center;
+  text-align: center;
+}
+
+.pokemon-logo {
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  height: 30%;
+}
+
+.top-container h1 {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.90);
+  padding-top: 2%;
+}
+
+.autocomplete-container {
+  list-style: none;
+  height: auto;
+  max-height: 100px;
+  background-color: white;
+  overflow-y: auto;
+  width: 100%;
+  padding-left: 2%;
+}
+
+.autocomplete-container :hover{
+  background-color: rgb(127, 154, 235);
+}
+
+.search-results-container {
+  height: auto;
+  padding: 0;
+  padding-left: 10%;
+  width: 100%;
+  margin:0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.search-bar-container {
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 200px;
+}
+
+.input-wrapper {
+  background-color: white;
+  /*width: 100%;*/
+  border-radius: 20px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-wrapper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: rgba(48, 47, 47, 0.99);
+  font-weight: bold;
+  /*height: 100%;
+  width: 100%;
+  */
+  margin-left: 5px;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  color: rgb(45, 86, 210);
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  background-color:rgb(224, 47, 37, 0.80);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+.search-button {
+  padding: 0 15px;
+  height: 2.5rem;
+  margin-left: 2%;
+}
+
+.navigation-button {
+  margin: 10px;
+  border-radius: 5px;
+  width: 80px;
+  height:22px;
+}
+
+.search-button:hover, .navigation-button:hover {
+  background-color: rgb(224, 47, 37, 0.90);
+}
