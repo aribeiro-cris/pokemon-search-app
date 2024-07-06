@@ -23,7 +23,7 @@ The application was deployed on the following link:
 2. Clone the repository to your local machine:
 
 ```
-    git clone
+    git clone git@github.com:aribeiro-cris/pokemon-search-app.git
 ```
 
 ## Running the application
@@ -31,7 +31,7 @@ The application was deployed on the following link:
 3. Navigate to the project directory:
 
 ```
-cd pokemon
+cd pokemon-search-app
 ```
 4. Install dependencies:
 ```
@@ -45,7 +45,7 @@ The application will be running on http://localhost:5173/.
 
 ## Testing 
 
-The testing was done using Jest testing framework. Jest is designed to easily work with React applications and it provides utilities like render, fireEvent, and screen from '@testing-library/react' that simplify component testing. To run tests, use the following command:
+The testing was done using the Jest testing framework. Jest is designed to work with React applications easily and it provides utilities like render, fireEvent, and screen from '@testing-library/react' that simplify component testing. To run tests, use the following command:
 
 ```
 npm test
