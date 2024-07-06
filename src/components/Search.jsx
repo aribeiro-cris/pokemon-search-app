@@ -4,8 +4,6 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { FaSearch } from "react-icons/fa";
 import { capitalizeFirstLetter } from './PokemonDisplay.jsx';
 
-//import { useCache } from './CacheMechanism.jsx';
-
 function Search() {
 
     const [pokemon, setPokemon] = useState("");
