@@ -1,5 +1,6 @@
+
 function Header() {
-    const logoUrl = "src/assets/pokemon.svg";
+    const logoUrl = "./public/pokemon.svg";
     
     return (
         <div data-testid="render-1" className="top-container">
