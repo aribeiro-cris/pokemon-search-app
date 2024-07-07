@@ -1,6 +1,6 @@
 
 function Header() {
-    const logoUrl = "./images/pokemon.svg";
+    const logoUrl = "./pokemon-search-app/images/pokemon.svg";
     
     return (
         <div data-testid="render-1" className="top-container">

@@ -9,7 +9,7 @@ describe(Header, () => {
         render(<Header />);
         const logoElement = screen.getByAltText("pokemon-logo");
         expect(logoElement).toBeInTheDocument();
-        expect(logoElement).toHaveAttribute("src", "./src/assets/pokemon.svg");
+        expect(logoElement).toHaveAttribute("src", "./pokemon-search-app/images/pokemon.svg");
     });
 
     test("Should display text content on Header component", () => {

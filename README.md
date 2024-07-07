@@ -1,6 +1,6 @@
 # Pokémon Search App
 
-React web page that allows users to display a pokémon when searching by name. It also has a previous and next button that switch to the previous/next Pokémon, based on their id number.
+React web page that allows users to display a pokémon when searching by name and navigate through Previous/Next button. The app also includes autocomplete suggestions and caching mechanism to enhance performance and responsiveness.
 
 ## Live Application URL
 
@@ -41,11 +41,11 @@ npm install
 ```
 npm run dev
 ```
-The application will be running on http://localhost:5173/.
+The application will be running on http://localhost:5173/pokemon-search-app.
 
 ## Testing 
 
-The testing was done using the Jest testing framework. Jest is designed to work with React applications easily and it provides utilities like render, fireEvent, and screen from '@testing-library/react' that simplify component testing. To run tests, use the following command:
+The testing was done using the Jest testing framework. Jest is designed to work with React applications easily and it provides features such as render, fireEvent, and screen from '@testing-library/react' that simplify component testing. Use the following command to run the tests:
 
 ```
 npm test
