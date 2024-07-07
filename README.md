@@ -4,7 +4,7 @@ React web page that allows users to display a pokémon when searching by name. I
 
 ## Live Application URL
 
-The application was deployed on the following link:
+The application was deployed on the following link: https://aribeiro-cris.github.io/pokemon-search-app/
 
 ## Main features
 
@@ -18,7 +18,7 @@ The application was deployed on the following link:
 
 ## Prerequisites 
 
-1. Refer to https://nodejs.org/en/ to install node.js in your machine.
+1. Refer to https://nodejs.org/en/ to install node.js on your machine.
 
 2. Clone the repository to your local machine:
 
