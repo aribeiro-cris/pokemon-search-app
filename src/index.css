@@ -12,7 +12,6 @@ body {
   background: linear-gradient(135deg, #FF0000, #FFDE00, #3B4CCA, #48D0B0);
   background-size: cover;
   background-attachment: fixed;  
-  /*background-color: #eee;*/
 }
 
 p {
@@ -76,7 +75,6 @@ p {
 
 .input-wrapper {
   background-color: white;
-  /*width: 100%;*/
   border-radius: 20px;
   height: 2.5rem;
   padding: 0 15px;
@@ -99,9 +97,6 @@ input {
   font-size: 1.25rem;
   color: rgba(48, 47, 47, 0.99);
   font-weight: bold;
-  /*height: 100%;
-  width: 100%;
-  */
   margin-left: 5px;
 }
 
@@ -142,4 +137,17 @@ button {
 
 .search-button:hover, .navigation-button:hover {
   background-color: rgb(224, 47, 37, 0.90);
+}
+
+@media only screen and (max-width: 600px) {
+  .search-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-button {
+    margin-top: 2%;
+  }
 }
